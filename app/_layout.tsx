@@ -1,4 +1,4 @@
-import { Stack } from 'expo-router';
+import { Tabs } from 'expo-router';
 import { NativeWindStyleSheet } from 'nativewind';
 
 NativeWindStyleSheet.setOutput({
@@ -6,5 +6,5 @@ NativeWindStyleSheet.setOutput({
 });
 
 export default function Layout() {
-  return <Stack />;
+  return <Tabs />;
 }
